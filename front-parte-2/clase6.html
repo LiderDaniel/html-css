@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=}, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+
+
+
+:root{
+            --white: #FFFFFF;
+            --black: #000000;
+            --very-light-pink: #C7C7C7;
+            --text-input-field : #F7F7F7;
+            --hospital-green : #ACD9B2;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+
+        body{
+            font-family: 'Quicksand', sans-serif;
+        }
+
+
+        body{
+            margin: 0;
+            background-image: linea;
+        }
+        .cards-container{
+            display: grid;
+            grid-template-columns:repeat(auto-fill, 240px);
+        }
+        .product-card{
+            width: 240px;
+            
+        }
+
+        .product-card img {
+            width: 240px;
+            height: 240px;
+             border-radius: 20px;     /*    para ponerle borde alas imagenes */
+             object-fit: cover;    /*esta imagen va tener su imagen tal cual */
+
+        }
+        .product-info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            
+        }
+
+        .product-info figure{
+            margin: 0;
+        }
+        .product-info figure img{
+            width: 35px;
+            height: 35px;
+
+        }
+    </style>
+</head>
+<body>
+    <section class="main-container"></section>
+    <div class="cards-container">
+
+       <div class="product-card">
+        <img src="../logos/pexels-erik-mclean-13010638.jpg" alt="">
+
+       <div class="product-info">
+        <div>
+            <p>$120,00</p>
+            <p>Subaru</p>
+        </div>
+        <figure>
+
+            <img src="../icons/4175027.png">
+           </figure>
+
+       </div>
+       </div>
+
+
+
+
+       <div class="product-card">
+        <img src="../logos/pexels-erik-mclean-13010638.jpg" alt="">
+
+       <div>
+
+        <p>$120,00</p>
+        <p>Subaru</p>
+       </div>
+
+       <figure>
+
+        <img src="../icons/4175027.png">
+       </figure>
+
+       </div>
+
+    </div>
+</body>
+</html>
